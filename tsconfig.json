@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "rootDir": "ts",
+    "outDir": "node",
+    "lib": ["es5", "es6"],
+    "esModuleInterop": true,
+    "types": [],
+    "typeRoots": []
+  }
+}

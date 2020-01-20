@@ -1,0 +1,24 @@
+{
+  "name": "pollenium-primrose",
+  "version": "0.0.0",
+  "description": "",
+  "main": "node/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pollenium/primrose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollenium/primrose/issues"
+  },
+  "homepage": "https://github.com/pollenium/primrose#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.7.5"
+  }
+}
