@@ -1,6 +1,6 @@
 export class Primrose<Resolution> {
 
-  private promise: Promise
+  private promise: Promise<Resolution>
   private _resolve
   private _reject
 
