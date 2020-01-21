@@ -1,10 +1,11 @@
-export class Primrose<Resolution> extends Promise<Resolution>{
+export class Primrose<Resolution> {
 
+  private promise: Promise
   private _resolve
   private _reject
 
   constructor() {
-    super((_resolve, _reject) => {
+    this.promise = new Promise((_resolve, _reject) => {
       this._resolve = _resolve
       this._reject = _reject
     })

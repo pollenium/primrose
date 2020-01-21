@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": "ts",
     "outDir": "node",
-    "lib": ["es5", "es6"],
+    "lib": ["es6", "dom"],
     "esModuleInterop": true,
     "types": [],
     "typeRoots": []
